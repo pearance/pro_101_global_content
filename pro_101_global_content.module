@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pro 101 Global Content feature.
+ */
+
+include_once('pro_101_global_content.features.inc');
