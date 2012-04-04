@@ -38,12 +38,6 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
-        'formblock-contact_site' => array(
-          'module' => 'formblock',
-          'delta' => 'contact_site',
-          'region' => 'postscript_first',
-          'weight' => '-10',
-        ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
           'delta' => 'menu-auxiliary',
