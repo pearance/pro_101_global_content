@@ -17,9 +17,10 @@ function pro_101_global_content_context_default_contexts() {
   $context->description = '';
   $context->tag = 'Section';
   $context->conditions = array(
-    'sitewide' => array(
+    'path' => array(
       'values' => array(
-        1 => 1,
+        '*' => '*',
+        '~specialties' => '~specialties',
       ),
     ),
   );
@@ -32,10 +33,10 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'content',
           'weight' => '-10',
         ),
-        'menu-menu-specialties' => array(
-          'module' => 'menu',
-          'delta' => 'menu-specialties',
-          'region' => 'sidebar_first',
+        'views-specialties-block' => array(
+          'module' => 'views',
+          'delta' => 'specialties-block',
+          'region' => 'sidebar_second',
           'weight' => '-10',
         ),
         'menu-menu-auxiliary' => array(
