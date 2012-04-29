@@ -31,7 +31,7 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => '-10',
+          'weight' => '-23',
         ),
         'views-specialties-block' => array(
           'module' => 'views',
