@@ -33,11 +33,17 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'content',
           'weight' => '-23',
         ),
+        'boxes-prominent_contact' => array(
+          'module' => 'boxes',
+          'delta' => 'prominent_contact',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
         'views-specialties-block' => array(
           'module' => 'views',
           'delta' => 'specialties-block',
           'region' => 'sidebar_second',
-          'weight' => '-10',
+          'weight' => '-9',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
