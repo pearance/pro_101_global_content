@@ -20,7 +20,6 @@ function pro_101_global_content_context_default_contexts() {
     'path' => array(
       'values' => array(
         '*' => '*',
-        '~specialties' => '~specialties',
       ),
     ),
   );
@@ -36,6 +35,12 @@ function pro_101_global_content_context_default_contexts() {
         'boxes-prominent_contact' => array(
           'module' => 'boxes',
           'delta' => 'prominent_contact',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
+        'views-testimonals-block' => array(
+          'module' => 'views',
+          'delta' => 'testimonals-block',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),
