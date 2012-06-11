@@ -36,19 +36,19 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'boxes',
           'delta' => 'prominent_contact',
           'region' => 'sidebar_second',
-          'weight' => 3,
+          'weight' => 1,
         ),
         'views-testimonals-block' => array(
           'module' => 'views',
           'delta' => 'testimonals-block',
           'region' => 'sidebar_second',
-          'weight' => 4,
+          'weight' => 2,
         ),
         'views-specialties-block' => array(
           'module' => 'views',
           'delta' => 'specialties-block',
           'region' => 'sidebar_second',
-          'weight' => 5,
+          'weight' => 3,
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
