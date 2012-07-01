@@ -10,7 +10,7 @@
 function pro_101_global_content_menu_default_menu_custom() {
   $menus = array();
 
-  // Exported menu: menu-auxiliary
+  // Exported menu: menu-auxiliary.
   $menus['menu-auxiliary'] = array(
     'menu_name' => 'menu-auxiliary',
     'title' => 'Auxiliary',
