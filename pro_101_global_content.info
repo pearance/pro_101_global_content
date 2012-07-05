@@ -8,6 +8,7 @@ project = pro_101_global_content
 dependencies[] = boxes
 dependencies[] = context
 dependencies[] = ctools
+dependencies[] = delta_blocks
 dependencies[] = features
 dependencies[] = menu
 dependencies[] = views
