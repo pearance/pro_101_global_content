@@ -26,47 +26,53 @@ function pro_101_global_content_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'system-main' => array(
+          'module' => 'system',
+          'delta' => 'main',
+          'region' => 'content',
+          'weight' => '0',
+        ),
         'system-user-menu' => array(
           'module' => 'system',
           'delta' => 'user-menu',
           'region' => 'user_second',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'delta_blocks-branding' => array(
           'module' => 'delta_blocks',
           'delta' => 'branding',
           'region' => 'branding',
-          'weight' => 0,
-        ),
-        'boxes-prominent_contact' => array(
-          'module' => 'boxes',
-          'delta' => 'prominent_contact',
-          'region' => 'header_second',
-          'weight' => 0,
-        ),
-        'system-main' => array(
-          'module' => 'system',
-          'delta' => 'main',
-          'region' => 'content',
-          'weight' => 0,
-        ),
-        'views-testimonals-block' => array(
-          'module' => 'views',
-          'delta' => 'testimonals-block',
-          'region' => 'sidebar_second',
-          'weight' => 1,
+          'weight' => '0',
         ),
         'views-specialties-block' => array(
           'module' => 'views',
           'delta' => 'specialties-block',
           'region' => 'sidebar_second',
-          'weight' => 2,
+          'weight' => '1',
+        ),
+        'views-testimonals-block' => array(
+          'module' => 'views',
+          'delta' => 'testimonals-block',
+          'region' => 'sidebar_second',
+          'weight' => '4',
+        ),
+        'boxes-prominent_contact' => array(
+          'module' => 'boxes',
+          'delta' => 'prominent_contact',
+          'region' => 'header_second',
+          'weight' => '0',
+        ),
+        'widgets-s_socialmedia_profile-default' => array(
+          'module' => 'widgets',
+          'delta' => 's_socialmedia_profile-default',
+          'region' => 'footer_first',
+          'weight' => '-10',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
           'delta' => 'menu-auxiliary',
           'region' => 'footer_second',
-          'weight' => 0,
+          'weight' => '0',
         ),
       ),
     ),
