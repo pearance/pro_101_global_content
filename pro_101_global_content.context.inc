@@ -44,11 +44,17 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'branding',
           'weight' => '0',
         ),
+        'widgets-s_socialmedia_profile-default' => array(
+          'module' => 'widgets',
+          'delta' => 's_socialmedia_profile-default',
+          'region' => 'sidebar_second',
+          'weight' => '-10',
+        ),
         'views-specialties-block' => array(
           'module' => 'views',
           'delta' => 'specialties-block',
           'region' => 'sidebar_second',
-          'weight' => '1',
+          'weight' => '-4',
         ),
         'views-testimonals-block' => array(
           'module' => 'views',
@@ -61,12 +67,6 @@ function pro_101_global_content_context_default_contexts() {
           'delta' => 'prominent_contact',
           'region' => 'header_second',
           'weight' => '0',
-        ),
-        'widgets-s_socialmedia_profile-default' => array(
-          'module' => 'widgets',
-          'delta' => 's_socialmedia_profile-default',
-          'region' => 'footer_first',
-          'weight' => '-10',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
