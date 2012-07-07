@@ -44,11 +44,35 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'branding',
           'weight' => '0',
         ),
-        'widgets-s_socialmedia_profile-default' => array(
-          'module' => 'widgets',
-          'delta' => 's_socialmedia_profile-default',
+        'jasm-service_list' => array(
+          'module' => 'jasm',
+          'delta' => 'service_list',
           'region' => 'sidebar_second',
           'weight' => '-10',
+        ),
+        'jasm-feedburner_mail_subscribe' => array(
+          'module' => 'jasm',
+          'delta' => 'feedburner_mail_subscribe',
+          'region' => 'sidebar_second',
+          'weight' => '-9',
+        ),
+        'jasm-fb_like_box' => array(
+          'module' => 'jasm',
+          'delta' => 'fb_like_box',
+          'region' => 'sidebar_second',
+          'weight' => '-8',
+        ),
+        'jasm-twitter_profile_widget' => array(
+          'module' => 'jasm',
+          'delta' => 'twitter_profile_widget',
+          'region' => 'sidebar_second',
+          'weight' => '-7',
+        ),
+        'jasm-twitter_follow_button' => array(
+          'module' => 'jasm',
+          'delta' => 'twitter_follow_button',
+          'region' => 'sidebar_second',
+          'weight' => '-5',
         ),
         'views-specialties-block' => array(
           'module' => 'views',
@@ -60,7 +84,7 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'views',
           'delta' => 'testimonals-block',
           'region' => 'sidebar_second',
-          'weight' => '4',
+          'weight' => '-3',
         ),
         'boxes-prominent_contact' => array(
           'module' => 'boxes',
