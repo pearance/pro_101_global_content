@@ -32,17 +32,23 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'content',
           'weight' => '0',
         ),
+        'delta_blocks-logo' => array(
+          'module' => 'delta_blocks',
+          'delta' => 'logo',
+          'region' => 'user_first',
+          'weight' => '-10',
+        ),
         'system-user-menu' => array(
           'module' => 'system',
           'delta' => 'user-menu',
           'region' => 'user_second',
-          'weight' => '0',
+          'weight' => '-10',
         ),
-        'delta_blocks-branding' => array(
-          'module' => 'delta_blocks',
-          'delta' => 'branding',
-          'region' => 'branding',
-          'weight' => '0',
+        'boxes-prominent_contact' => array(
+          'module' => 'boxes',
+          'delta' => 'prominent_contact',
+          'region' => 'user_second',
+          'weight' => '-9',
         ),
         'jasm-service_list' => array(
           'module' => 'jasm',
@@ -85,12 +91,6 @@ function pro_101_global_content_context_default_contexts() {
           'delta' => 'testimonals-block',
           'region' => 'sidebar_second',
           'weight' => '-3',
-        ),
-        'boxes-prominent_contact' => array(
-          'module' => 'boxes',
-          'delta' => 'prominent_contact',
-          'region' => 'header_second',
-          'weight' => '0',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
