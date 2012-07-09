@@ -28,9 +28,6 @@ function pro_101_global_content_content_defaults() {
           'value' => 'Access denied message goes here.',
           'summary' => '',
           'format' => 'plain_text',
-          'safe_value' => '<p>Access denied message goes here.</p>
-',
-          'safe_summary' => '',
         ),
       ),
     ),
@@ -51,12 +48,9 @@ function pro_101_global_content_content_defaults() {
     'body' => array(
       'und' => array(
         0 => array(
-          'value' => 'Page not found design goes here.',
+          'value' => '<span style="color: rgb(80, 80, 80); font-family: Arial, Helvetica, sans-serif; line-height: 19px; ">It seems like the page you were looking for is not available, or the URL you linked from is not valid. May we suggest other ways to find the information you are looking for?</span>',
           'summary' => '',
           'format' => 'plain_text',
-          'safe_value' => '<p>Page not found design goes here.</p>
-',
-          'safe_summary' => '',
         ),
       ),
     ),
