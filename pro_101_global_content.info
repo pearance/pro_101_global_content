@@ -15,6 +15,7 @@ dependencies[] = jasm
 dependencies[] = menu
 dependencies[] = views
 features[box][] = prominent_contact
+features[box][] = site_disclaimer
 features[content][] = access_denied
 features[content][] = not_found
 features[context][] = global

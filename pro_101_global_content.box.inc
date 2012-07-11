@@ -32,5 +32,21 @@ p+p {margin-top:-15px;}
   );
   $export['prominent_contact'] = $box;
 
+  $box = new stdClass();
+  $box->disabled = FALSE; /* Edit this to true to make a default box disabled initially */
+  $box->api_version = 1;
+  $box->delta = 'site_disclaimer';
+  $box->plugin_key = 'simple';
+  $box->title = 'Site Disclaimer';
+  $box->description = 'Site Disclaimer';
+  $box->options = array(
+    'body' => array(
+      'value' => '<p>This website provides general information about legal topics but it does not provide individual legal advice. Creative Commons Corporation is not a law firm and does not provide legal services. Using this website or sending us email does not create an attorney-client relationship. Creative Commons provides this general legal information on an &#39;as-is&#39; basis. Creative Commons makes no warranties regarding the general legal information provided on this website, and disclaims liability for damages resulting from its use.</p>
+',
+      'format' => 'plain_text',
+    ),
+  );
+  $export['site_disclaimer'] = $box;
+
   return $export;
 }
