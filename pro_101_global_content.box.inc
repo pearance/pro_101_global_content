@@ -41,10 +41,11 @@ p+p {margin-top:-15px;}
   $box->description = 'Site Disclaimer';
   $box->options = array(
     'body' => array(
-      'value' => '<p>This website provides general information about legal topics but it does not provide individual legal advice. Creative Commons Corporation is not a law firm and does not provide legal services. Using this website or sending us email does not create an attorney-client relationship. Creative Commons provides this general legal information on an &#39;as-is&#39; basis. Creative Commons makes no warranties regarding the general legal information provided on this website, and disclaims liability for damages resulting from its use.</p>
+      'value' => '<p>The information and materials on this site are provided for general information purposes and should NOT be relied on as a substitute for actual professional evaluation and advice.&nbsp;Using this site or sending us email does NOT create a professional-client relationship. We make NO warranties regarding the information provided on this site, and disclaim all liability for damages resulting from its use.</p>
 ',
       'format' => 'plain_text',
     ),
+    'additional_classes' => '',
   );
   $export['site_disclaimer'] = $box;
 
