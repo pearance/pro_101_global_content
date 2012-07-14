@@ -44,11 +44,11 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'user_second',
           'weight' => '0',
         ),
-        'boxes-prominent_contact' => array(
-          'module' => 'boxes',
-          'delta' => 'prominent_contact',
+        'nodeblock-22' => array(
+          'module' => 'nodeblock',
+          'delta' => 22,
           'region' => 'user_second',
-          'weight' => '1',
+          'weight' => '-10',
         ),
         'jasm-service_list' => array(
           'module' => 'jasm',
@@ -92,11 +92,11 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '7',
         ),
-        'boxes-site_disclaimer' => array(
-          'module' => 'boxes',
-          'delta' => 'site_disclaimer',
+        'nodeblock-21' => array(
+          'module' => 'nodeblock',
+          'delta' => '21',
           'region' => 'footer_first',
-          'weight' => '0',
+          'weight' => '-10',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
