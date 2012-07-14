@@ -30,7 +30,7 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => '0',
+          'weight' => '-9',
         ),
         'delta_blocks-logo' => array(
           'module' => 'delta_blocks',
@@ -38,17 +38,17 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'user_first',
           'weight' => '0',
         ),
-        'system-user-menu' => array(
-          'module' => 'system',
-          'delta' => 'user-menu',
-          'region' => 'user_second',
-          'weight' => '0',
-        ),
         'nodeblock-prominent_contact' => array(
           'module' => 'nodeblock',
           'delta' => 'prominent_contact',
           'region' => 'user_second',
           'weight' => '-10',
+        ),
+        'system-user-menu' => array(
+          'module' => 'system',
+          'delta' => 'user-menu',
+          'region' => 'user_second',
+          'weight' => '0',
         ),
         'jasm-service_list' => array(
           'module' => 'jasm',
