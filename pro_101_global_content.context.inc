@@ -44,9 +44,9 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'user_second',
           'weight' => '0',
         ),
-        'nodeblock-22' => array(
+        'nodeblock-prominent_contact' => array(
           'module' => 'nodeblock',
-          'delta' => 22,
+          'delta' => 'prominent_contact',
           'region' => 'user_second',
           'weight' => '-10',
         ),
@@ -92,9 +92,9 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'sidebar_second',
           'weight' => '7',
         ),
-        'nodeblock-21' => array(
+        'nodeblock-site_disclamer' => array(
           'module' => 'nodeblock',
-          'delta' => '21',
+          'delta' => 'site_disclamer',
           'region' => 'footer_first',
           'weight' => '-10',
         ),
