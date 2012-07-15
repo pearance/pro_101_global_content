@@ -17,6 +17,5 @@ dependencies[] = views
 features[content][] = prominent_contact
 features[content][] = site_disclamer
 features[context][] = global
-features[ctools][] = boxes:box:1
 features[ctools][] = context:context:3
 features[features_api][] = api:1
