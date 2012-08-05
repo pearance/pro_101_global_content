@@ -30,7 +30,13 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => '-9',
+          'weight' => '0',
+        ),
+        'workbench-block' => array(
+          'module' => 'workbench',
+          'delta' => 'block',
+          'region' => 'content',
+          'weight' => '-10',
         ),
         'delta_blocks-logo' => array(
           'module' => 'delta_blocks',
