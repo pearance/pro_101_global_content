@@ -11,7 +11,7 @@ function pro_101_global_content_content_defaults() {
   $content = array();
 
   $content['prominent_contact'] = (object) array(
-    'exported_path' => 'prominent-contact-info',
+    'exported_path' => 'block/prominent-contact-info',
     'title' => 'Prominent Contact Info',
     'status' => '1',
     'promote' => '0',
@@ -39,7 +39,7 @@ p+p {margin-top:-15px;}</style>
   );
 
   $content['site_disclamer'] = (object) array(
-    'exported_path' => 'site-disclaimer',
+    'exported_path' => 'block/site-disclaimer',
     'title' => 'Site Disclaimer',
     'status' => '1',
     'promote' => '0',
