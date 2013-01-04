@@ -10,6 +10,38 @@
 function pro_101_global_content_content_defaults() {
   $content = array();
 
+  $content['call-to-action'] = (object) array(
+    'exported_path' => 'block/call-to-action',
+    'title' => 'Call to Action',
+    'status' => '1',
+    'promote' => '0',
+    'sticky' => '0',
+    'type' => 'block',
+    'language' => 'und',
+    'created' => '1357269168',
+    'comment' => '0',
+    'translate' => '0',
+    'machine_name' => 'call-to-action',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '<div>
+	<p class="action-number">
+		<i class="icon-phone-sign">&nbsp;</i>888-LAW-DEMO
+	</p>
+</div>
+
+<p class="action-caption">
+	Free Case Evaluation
+</p>
+',
+          'summary' => '',
+          'format' => 'plain_text',
+        ),
+      ),
+    ),
+  );
+
   $content['site_disclamer'] = (object) array(
     'exported_path' => 'block/site-disclaimer',
     'title' => 'Site Disclaimer',
