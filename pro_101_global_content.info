@@ -15,7 +15,6 @@ dependencies[] = menu
 dependencies[] = nodeblock
 dependencies[] = views
 dependencies[] = workbench
-features[content][] = prominent_contact
 features[content][] = site_disclamer
 features[context][] = global
 features[ctools][] = context:context:3
