@@ -16,6 +16,7 @@ dependencies[] = nodeblock
 dependencies[] = views
 dependencies[] = workbench
 features[content][] = call-to-action
+features[content][] = copyright
 features[content][] = site_disclamer
 features[context][] = global
 features[ctools][] = context:context:3
