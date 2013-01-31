@@ -12,6 +12,7 @@ dependencies[] = delta_blocks
 dependencies[] = features
 dependencies[] = jasm
 dependencies[] = menu
+dependencies[] = mobile_menu_toggle
 dependencies[] = nodeblock
 dependencies[] = views
 dependencies[] = workbench

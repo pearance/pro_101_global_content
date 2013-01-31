@@ -26,9 +26,7 @@ function pro_101_global_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<div>
-	<p class="action-number">
-		<i class="icon-phone-sign">&nbsp;</i>888-LAW-DEMO
-	</p>
+	<a class="action-number" href="tel:888-888-8888"><div><i class="icon-phone-sign">&nbsp;</i>888-PRO-START</div></a>
 </div>
 
 <p class="action-caption">

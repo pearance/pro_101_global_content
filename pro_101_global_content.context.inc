@@ -38,16 +38,22 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'head_1',
           'weight' => 0,
         ),
+        'mobile_menu_toggle-mobile_menu_toggle' => array(
+          'module' => 'mobile_menu_toggle',
+          'delta' => 'mobile_menu_toggle',
+          'region' => 'head_2',
+          'weight' => 0,
+        ),
         'nodeblock-call-to-action' => array(
           'module' => 'nodeblock',
           'delta' => 'call-to-action',
           'region' => 'head_2',
-          'weight' => 0,
+          'weight' => 1,
         ),
         'system-main-menu' => array(
           'module' => 'system',
           'delta' => 'main-menu',
-          'region' => 'prime_1',
+          'region' => 'menu_1',
           'weight' => 0,
         ),
         'system-main' => array(
@@ -55,42 +61,6 @@ function pro_101_global_content_context_default_contexts() {
           'delta' => 'main',
           'region' => 'content',
           'weight' => 0,
-        ),
-        'jasm-service_list' => array(
-          'module' => 'jasm',
-          'delta' => 'service_list',
-          'region' => 'main_sidebar_1',
-          'weight' => 0,
-        ),
-        'jasm-fb_like_box' => array(
-          'module' => 'jasm',
-          'delta' => 'fb_like_box',
-          'region' => 'main_sidebar_1',
-          'weight' => 1,
-        ),
-        'jasm-twitter_follow_button' => array(
-          'module' => 'jasm',
-          'delta' => 'twitter_follow_button',
-          'region' => 'main_sidebar_1',
-          'weight' => 2,
-        ),
-        'jasm-feedburner_mail_subscribe' => array(
-          'module' => 'jasm',
-          'delta' => 'feedburner_mail_subscribe',
-          'region' => 'main_sidebar_1',
-          'weight' => 3,
-        ),
-        'views-specialties-block' => array(
-          'module' => 'views',
-          'delta' => 'specialties-block',
-          'region' => 'main_sidebar_1',
-          'weight' => 4,
-        ),
-        'views-testimonals-block' => array(
-          'module' => 'views',
-          'delta' => 'testimonals-block',
-          'region' => 'main_sidebar_1',
-          'weight' => 5,
         ),
         'nodeblock-site_disclamer' => array(
           'module' => 'nodeblock',
