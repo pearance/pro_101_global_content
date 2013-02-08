@@ -20,5 +20,6 @@ features[content][] = call-to-action
 features[content][] = copyright
 features[content][] = site_disclamer
 features[context][] = global
+features[context][] = global_sidebar
 features[ctools][] = context:context:3
 features[features_api][] = api:1
