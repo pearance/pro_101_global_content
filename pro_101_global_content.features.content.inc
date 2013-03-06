@@ -56,7 +56,7 @@ function pro_101_global_content_content_defaults() {
       'und' => array(
         0 => array(
           'value' => '<p>
-	© 2012 Pro Starter. All rights reserved.
+	© 2012 Pro Starter. All rights reserved. | &nbsp;<a href="/user/login">Log In</a>
 </p>
 ',
           'summary' => '',

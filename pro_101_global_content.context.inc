@@ -15,7 +15,7 @@ function pro_101_global_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'global';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'General Layout';
   $context->conditions = array(
     'sitewide' => array(
       'values' => array(
@@ -30,55 +30,55 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'system',
           'delta' => 'user-menu',
           'region' => 'top_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'delta_blocks-logo' => array(
           'module' => 'delta_blocks',
           'delta' => 'logo',
           'region' => 'head_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'mobile_menu_toggle-mobile_menu_toggle' => array(
           'module' => 'mobile_menu_toggle',
           'delta' => 'mobile_menu_toggle',
           'region' => 'head_2',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'nodeblock-call-to-action' => array(
           'module' => 'nodeblock',
           'delta' => 'call-to-action',
           'region' => 'head_2',
-          'weight' => 1,
+          'weight' => '1',
         ),
         'system-main-menu' => array(
           'module' => 'system',
           'delta' => 'main-menu',
           'region' => 'menu_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'system-main' => array(
           'module' => 'system',
           'delta' => 'main',
           'region' => 'content',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'nodeblock-site_disclamer' => array(
           'module' => 'nodeblock',
           'delta' => 'site_disclamer',
           'region' => 'foot_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'menu-menu-auxiliary' => array(
           'module' => 'menu',
           'delta' => 'menu-auxiliary',
           'region' => 'bottom_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'nodeblock-copyright' => array(
           'module' => 'nodeblock',
           'delta' => 'copyright',
           'region' => 'bottom_2',
-          'weight' => 0,
+          'weight' => '0',
         ),
       ),
     ),
@@ -87,7 +87,7 @@ function pro_101_global_content_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('General Layout');
   $export['global'] = $context;
 
   $context = new stdClass();
@@ -95,12 +95,17 @@ function pro_101_global_content_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'global_sidebar';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'General Layout';
   $context->conditions = array(
     'path' => array(
       'values' => array(
         '~contact' => '~contact',
         '~contact/*' => '~contact/*',
+        '~testimonials' => '~testimonials',
+        '~testimonials/*' => '~testimonials/*',
+        '~blog/*' => '~blog/*',
+        '~user' => '~user',
+        '~user/*' => '~user/*',
       ),
     ),
   );
@@ -111,37 +116,37 @@ function pro_101_global_content_context_default_contexts() {
           'module' => 'jasm',
           'delta' => 'service_list',
           'region' => 'main_sidebar_1',
-          'weight' => 0,
+          'weight' => '0',
         ),
         'jasm-fb_like_box' => array(
           'module' => 'jasm',
           'delta' => 'fb_like_box',
           'region' => 'main_sidebar_1',
-          'weight' => 1,
+          'weight' => '1',
         ),
         'jasm-twitter_follow_button' => array(
           'module' => 'jasm',
           'delta' => 'twitter_follow_button',
           'region' => 'main_sidebar_1',
-          'weight' => 2,
+          'weight' => '2',
         ),
         'jasm-feedburner_mail_subscribe' => array(
           'module' => 'jasm',
           'delta' => 'feedburner_mail_subscribe',
           'region' => 'main_sidebar_1',
-          'weight' => 3,
+          'weight' => '3',
         ),
         'views-specialties-specialties_block' => array(
           'module' => 'views',
           'delta' => 'specialties-specialties_block',
           'region' => 'main_sidebar_1',
-          'weight' => 4,
+          'weight' => '4',
         ),
         'views-testimonals-block' => array(
           'module' => 'views',
           'delta' => 'testimonals-block',
           'region' => 'main_sidebar_1',
-          'weight' => 5,
+          'weight' => '5',
         ),
       ),
     ),
@@ -150,7 +155,7 @@ function pro_101_global_content_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('General Layout');
   $export['global_sidebar'] = $context;
 
   return $export;
