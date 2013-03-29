@@ -56,12 +56,6 @@ function pro_101_global_content_context_default_contexts() {
           'region' => 'menu_1',
           'weight' => '0',
         ),
-        'delta_blocks-messages' => array(
-          'module' => 'delta_blocks',
-          'delta' => 'messages',
-          'region' => 'lead_1',
-          'weight' => '-10',
-        ),
         'system-main' => array(
           'module' => 'system',
           'delta' => 'main',
